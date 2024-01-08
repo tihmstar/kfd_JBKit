@@ -27,6 +27,7 @@ public:
 #pragma mark primitives
     virtual uint64_t unstable_read64(kptr_t kaddr) override;
     virtual void unstable_write64(kptr_t kaddr, uint64_t val) override;
+    virtual kptr_t getKernelBase() override;
 };
 
 #endif /* kfd_hpp */

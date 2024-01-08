@@ -55,6 +55,11 @@ void Exploit_kfd::unstable_write64(kptr_t kaddr, uint64_t val){
     reterror("TODO implement write64");
 }
 
+kptr_t Exploit_kfd::getKernelBase(){
+    reterror("TODO implement getKernelBase");
+}
+
+
 #pragma mark register exploit in framework
 __attribute__((constructor))
 void libconstructor(void){
