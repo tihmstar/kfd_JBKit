@@ -10,8 +10,9 @@
 
 #include <JBKit/JBKit.h>
 
+struct dynamic_info;
 class Exploit_kfd : public JBKit::JBExploit {
-
+    struct dynamic_info *_di;
 public:
     Exploit_kfd();
     virtual ~Exploit_kfd() override;

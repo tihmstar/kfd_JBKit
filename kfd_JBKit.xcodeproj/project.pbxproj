@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871FDDA42B89DCF0007CD1E6 /* libgrabkernel.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDA32B89DCF0007CD1E6 /* libgrabkernel.0.dylib */; };
+		871FDDA52B89DCF0007CD1E6 /* libgrabkernel.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDA32B89DCF0007CD1E6 /* libgrabkernel.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		871FDDA72B89DD07007CD1E6 /* libpatchfinder.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDA62B89DD07007CD1E6 /* libpatchfinder.0.dylib */; };
+		871FDDA82B89DD07007CD1E6 /* libpatchfinder.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDA62B89DD07007CD1E6 /* libpatchfinder.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		871FDDAA2B89DD5F007CD1E6 /* libcurl.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDA92B89DD5F007CD1E6 /* libcurl.4.dylib */; };
+		871FDDAB2B89DD5F007CD1E6 /* libcurl.4.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDA92B89DD5F007CD1E6 /* libcurl.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		871FDDAD2B89DD6A007CD1E6 /* libfragmentzip.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDAC2B89DD6A007CD1E6 /* libfragmentzip.0.dylib */; };
+		871FDDAE2B89DD6A007CD1E6 /* libfragmentzip.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDAC2B89DD6A007CD1E6 /* libfragmentzip.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		871FDDB02B89DD77007CD1E6 /* libgeneral.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDAF2B89DD77007CD1E6 /* libgeneral.0.dylib */; };
+		871FDDB12B89DD77007CD1E6 /* libgeneral.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDAF2B89DD77007CD1E6 /* libgeneral.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		871FDDB32B89DD89007CD1E6 /* libimg4tool.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDB22B89DD89007CD1E6 /* libimg4tool.0.dylib */; };
+		871FDDB42B89DD89007CD1E6 /* libimg4tool.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDB22B89DD89007CD1E6 /* libimg4tool.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		871FDDB62B89DD94007CD1E6 /* libinsn.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDB52B89DD94007CD1E6 /* libinsn.0.dylib */; };
+		871FDDB72B89DD94007CD1E6 /* libinsn.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDB52B89DD94007CD1E6 /* libinsn.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		871FDDB92B89DDA3007CD1E6 /* libplist-2.0.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDB82B89DDA3007CD1E6 /* libplist-2.0.4.dylib */; };
+		871FDDBA2B89DDA3007CD1E6 /* libplist-2.0.4.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 871FDDB82B89DDA3007CD1E6 /* libplist-2.0.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		878171EC2B4CB75300F7399C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878171EB2B4CB75300F7399C /* AppDelegate.m */; };
 		878171EF2B4CB75300F7399C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878171EE2B4CB75300F7399C /* SceneDelegate.m */; };
 		878171F22B4CB75300F7399C /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 878171F12B4CB75300F7399C /* ViewController.mm */; };
@@ -26,7 +42,15 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				871FDDAB2B89DD5F007CD1E6 /* libcurl.4.dylib in Embed Frameworks */,
+				871FDDB12B89DD77007CD1E6 /* libgeneral.0.dylib in Embed Frameworks */,
+				871FDDA82B89DD07007CD1E6 /* libpatchfinder.0.dylib in Embed Frameworks */,
+				871FDDAE2B89DD6A007CD1E6 /* libfragmentzip.0.dylib in Embed Frameworks */,
+				871FDDB42B89DD89007CD1E6 /* libimg4tool.0.dylib in Embed Frameworks */,
+				871FDDBA2B89DDA3007CD1E6 /* libplist-2.0.4.dylib in Embed Frameworks */,
 				878172092B4CB7B500F7399C /* JBKit.framework in Embed Frameworks */,
+				871FDDB72B89DD94007CD1E6 /* libinsn.0.dylib in Embed Frameworks */,
+				871FDDA52B89DCF0007CD1E6 /* libgrabkernel.0.dylib in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +58,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		871FDDA32B89DCF0007CD1E6 /* libgrabkernel.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgrabkernel.0.dylib; path = ../../ios_buildroot/usr/local/lib/libgrabkernel.0.dylib; sourceTree = "<group>"; };
+		871FDDA62B89DD07007CD1E6 /* libpatchfinder.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpatchfinder.0.dylib; path = ../../ios_buildroot/usr/local/lib/libpatchfinder.0.dylib; sourceTree = "<group>"; };
+		871FDDA92B89DD5F007CD1E6 /* libcurl.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.4.dylib; path = ../../ios_buildroot/usr/local/lib/libcurl.4.dylib; sourceTree = "<group>"; };
+		871FDDAC2B89DD6A007CD1E6 /* libfragmentzip.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfragmentzip.0.dylib; path = ../../ios_buildroot/usr/local/lib/libfragmentzip.0.dylib; sourceTree = "<group>"; };
+		871FDDAF2B89DD77007CD1E6 /* libgeneral.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgeneral.0.dylib; path = ../../ios_buildroot/usr/local/lib/libgeneral.0.dylib; sourceTree = "<group>"; };
+		871FDDB22B89DD89007CD1E6 /* libimg4tool.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimg4tool.0.dylib; path = ../../ios_buildroot/usr/local/lib/libimg4tool.0.dylib; sourceTree = "<group>"; };
+		871FDDB52B89DD94007CD1E6 /* libinsn.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libinsn.0.dylib; path = ../../ios_buildroot/usr/local/lib/libinsn.0.dylib; sourceTree = "<group>"; };
+		871FDDB82B89DDA3007CD1E6 /* libplist-2.0.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libplist-2.0.4.dylib"; path = "../../ios_buildroot/usr/local/lib/libplist-2.0.4.dylib"; sourceTree = "<group>"; };
 		878171E72B4CB75300F7399C /* kfd_JBKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kfd_JBKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878171EA2B4CB75300F7399C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		878171EB2B4CB75300F7399C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,7 +89,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871FDDAA2B89DD5F007CD1E6 /* libcurl.4.dylib in Frameworks */,
+				871FDDB02B89DD77007CD1E6 /* libgeneral.0.dylib in Frameworks */,
+				871FDDA72B89DD07007CD1E6 /* libpatchfinder.0.dylib in Frameworks */,
+				871FDDAD2B89DD6A007CD1E6 /* libfragmentzip.0.dylib in Frameworks */,
+				871FDDB32B89DD89007CD1E6 /* libimg4tool.0.dylib in Frameworks */,
+				871FDDB92B89DDA3007CD1E6 /* libplist-2.0.4.dylib in Frameworks */,
 				878172082B4CB7B500F7399C /* JBKit.framework in Frameworks */,
+				871FDDB62B89DD94007CD1E6 /* libinsn.0.dylib in Frameworks */,
+				871FDDA42B89DCF0007CD1E6 /* libgrabkernel.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +144,14 @@
 		878172032B4CB7AD00F7399C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				871FDDB82B89DDA3007CD1E6 /* libplist-2.0.4.dylib */,
+				871FDDB52B89DD94007CD1E6 /* libinsn.0.dylib */,
+				871FDDB22B89DD89007CD1E6 /* libimg4tool.0.dylib */,
+				871FDDAF2B89DD77007CD1E6 /* libgeneral.0.dylib */,
+				871FDDAC2B89DD6A007CD1E6 /* libfragmentzip.0.dylib */,
+				871FDDA92B89DD5F007CD1E6 /* libcurl.4.dylib */,
+				871FDDA62B89DD07007CD1E6 /* libpatchfinder.0.dylib */,
+				871FDDA32B89DCF0007CD1E6 /* libgrabkernel.0.dylib */,
 				878172072B4CB7B500F7399C /* JBKit.framework */,
 				878172042B4CB7AD00F7399C /* kfd_JBKit.xcodeproj */,
 			);
@@ -347,7 +395,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2H3GC964X8;
 				FRAMEWORK_SEARCH_PATHS = "${SRCROOT}/framework";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					XCODE,
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(HOME)/ios_buildroot/usr/local/include";
 				INFOPLIST_FILE = kfd_JBKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -358,6 +412,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(HOME)/ios_buildroot/usr/local/lib";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tihmstar.kfd-JBKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +431,7 @@
 				DEVELOPMENT_TEAM = 2H3GC964X8;
 				FRAMEWORK_SEARCH_PATHS = "${SRCROOT}/framework";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(HOME)/ios_buildroot/usr/local/include";
 				INFOPLIST_FILE = kfd_JBKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -386,6 +442,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(HOME)/ios_buildroot/usr/local/lib";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tihmstar.kfd-JBKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
